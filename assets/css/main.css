@@ -1386,7 +1386,7 @@ ul.contact {
       font-family: 'Font Awesome 5 Free';
       font-weight: 400; }
     ul.contact li:before {
-      color: #f56a6a;
+      color: #003373;
       display: inline-block;
       font-size: 1.5em;
       height: 1.125em;
@@ -2225,7 +2225,7 @@ button,
     font-size: 0.9em;
     padding: 0.625em 0; }
     #menu ul a:hover, #menu ul span:hover {
-      color: #f56a6a; }
+      color: #b9d9eb; }
     #menu ul a.opener, #menu ul span.opener {
       -moz-transition: color 0.2s ease-in-out;
       -webkit-transition: color 0.2s ease-in-out;
@@ -2255,7 +2255,7 @@ button,
         position: absolute;
         right: 0; }
       #menu ul a.opener:hover:before, #menu ul span.opener:hover:before {
-        color: #f56a6a; }
+        color: #b9d9eb; }
       #menu ul a.opener.active + ul, #menu ul span.opener.active + ul {
         display: block; }
       #menu ul a.opener.active:before, #menu ul span.opener.active:before {
