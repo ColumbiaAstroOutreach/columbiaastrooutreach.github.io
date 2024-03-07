@@ -3242,7 +3242,7 @@ button:disabled,
 }
 
 #main>.inner>section {
-  padding: 6em 0 4em 0;
+  padding: 4em 0 4em 0;
   border-top: solid 2px rgba(210, 215, 217, 0.75);
 }
 
@@ -3541,7 +3541,7 @@ button:disabled,
   display: -ms-flex;
   display: flex;
   border-bottom: solid 5px #b9d9eb;
-  padding: 1em 0 1em 0;
+  padding: 2em 0 1em 0;
   position: relative;
 }
 
@@ -3566,7 +3566,7 @@ button:disabled,
 
 @media screen and (max-width: 1680px) {
   #header {
-    padding-top: 5em;
+    padding-top: 5em; 
   }
 }
 
