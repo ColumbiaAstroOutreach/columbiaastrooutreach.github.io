@@ -4327,3 +4327,23 @@ button:disabled,
   color: #b9d9eb;
   transform: rotateY(180deg);
 }
+
+div:has(> blockquote) {
+  background-color: #df2020;
+  margin: 5px auto;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+blockquote p::before {
+  content: "\201C";
+}
+
+blockquote p::after {
+  content: "\201D";
+}
+
+blockquote + p {
+  text-align: right;
+}
+
